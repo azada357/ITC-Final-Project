@@ -150,3 +150,30 @@ body{
 @media (max-width: 991px){
   .hero{padding:100px 0 70px}
 }
+.email-link {
+  color:rgba(122,166,161,.85);
+  text-decoration: none;
+}
+
+.email-link:hover {
+  color: rgba(31,63,70,.95);
+  text-decoration: underline;
+}
+.custom-card-img {
+  object-fit: cover;
+  height: 300px;
+  width:100%;
+  border-radius: 6px;
+}
+.c-item {
+    height: 480px;
+
+}
+.c-img {
+    height: 80%;
+    object-fit: cover;
+    filter: brightness(0.7);}
+
+#service1 {
+  background-color:  rgba(31,63,70,.95); /* black */
+}
