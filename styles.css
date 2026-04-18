@@ -170,10 +170,37 @@ body{
 
 }
 .c-img {
-    height: 80%;
+    height: 100%;
     object-fit: cover;
     filter: brightness(0.7);}
 
 #service1 {
-  background-color:  rgba(31,63,70,.95); /* black */
+  background-color:  rgba(31,63,70,.95); 
+}
+.contact-card {
+  background-color: rgba(32, 63, 70, 0.95);
+  color: #ffffff;          
+  border: none;
+}
+
+.contact-card a {
+  color: #00d4ff;
+}
+
+.contact-card a:hover {
+  color: #ffffff;
+}
+.carousel-caption {
+  animation: fadeUp 1s ease;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
